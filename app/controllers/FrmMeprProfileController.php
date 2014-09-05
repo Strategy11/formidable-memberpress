@@ -10,7 +10,6 @@ class FrmMeprProfileController{
     public static function replace_profile_form() {
         $frm_form = new FrmForm;
         if ( ! $frm_form->getIdByKey( 'memberpress-account' ) ) {
-            // TODO: Copy registration settings correctly
             self::_add_form_templates();
         }
         
@@ -31,7 +30,7 @@ class FrmMeprProfileController{
         $set_err = libxml_use_internal_errors(true);
         $loader = libxml_disable_entity_loader( true );
 
-        $file = array( FrmMeprAppHelper::plugin_path() .'/app/forms/form_templates.xml' );
+        $file = FrmMeprAppHelper::plugin_path() .'/app/forms/form_templates.xml';
         $result = FrmXMLHelper::import_xml($file);
         unset($file);
 
