@@ -91,17 +91,18 @@ class FrmMeprProfileController{
         
         $product = new MeprProduct($_GET['mepr-product']);
         $mepr_options = MeprOptions::fetch();
-        $values['value'] = '';
+        $values['options'] = '';
 
-        $active_pms = $pms = $product->payment_methods();
-        if ( count($active_pms) > 1 ) {
+        $pms = $product->payment_methods();
+        if ( count($pms) > 1 ) {
             $values['use_key'] = true;
+            $values['options'] = array();
             
             foreach ( $pms as $pm_id ) {
                 $obj = $mepr_options->payment_method($pm_id);
-                $values['value'] = array();
+                
                 if ( $obj instanceof MeprBaseRealGateway ) {
-                    $values['value'][$obj->id] = $obj->label; 
+                    $values['options'][$obj->id] = $obj->label; 
                 }
             }
         } else {
