@@ -136,16 +136,12 @@ class FrmMeprProfileController{
     }
     
     public static function process_signup_form($entry_id, $form_id) {
-        //error_log('process '. print_r($_POST,1));
         if ( $_POST && isset($_POST['mepr_process_signup_form']) ) {
-            error_log('in post');
             $frm_form = new FrmForm();
             $form = $frm_form->getOne($form_id);
             FrmEntriesController::delete_entry_before_redirect('', $form, array('id' => $entry_id));
             
             MeprUsersController::process_signup_form();
-        }else{
-            error_log('NO POST ');
         }
     }
     
