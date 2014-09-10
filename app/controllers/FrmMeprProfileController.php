@@ -28,6 +28,10 @@ class FrmMeprProfileController{
             $new_form = self::replace_signup_form();
             $pattern = "/<form id=\"mepr_logged_in_purchase\"(.*?)<\/form>/is";
             $content = preg_replace($pattern, $new_form, $content);
+        } else if ( strpos($content, '<form name="mepr_registerform"') ) {
+            $new_form = self::replace_signup_form();
+            $pattern = "/<form name=\"mepr_registerform\"(.*?)<\/form>/is";
+            $content = preg_replace($pattern, $new_form, $content);
         }
         
         return $content;
@@ -53,13 +57,14 @@ class FrmMeprProfileController{
     
     // hide fields conditionally based on settings
     public static function hide_signup_fields($type, $field) {
-        if ( in_array($field->field_key, array('mepr-fname', 'mepr-lname', 'mepr-coupon')) ) {
+        if ( 'hidden' != $type && in_array($field->field_key, array('mepr-fname', 'mepr-lname', 'mepr-coupon', 'mepr-login')) ) {
             $mepr_options = MeprOptions::fetch();
             
             $show_it = array(
                 'mepr-fname' => $mepr_options->show_fname_lname,
                 'mepr-lname' => $mepr_options->show_fname_lname,
                 'mepr-coupon' => ! $mepr_options->coupon_field_enabled,
+                'mepr-login' => ! $mepr_options->username_is_email,
             );
             
             if ( ! $show_it[$field->field_key] ) {
@@ -155,6 +160,8 @@ class FrmMeprProfileController{
             'mepr-email'    => 'user_email',
             'mepr-coupon'   => 'mepr_coupon_code',
             'mepr-pay'      => 'mepr_payment_method',
+            'mepr-login'    => 'user_login',
+            'mepr-pass'     => 'mepr_user_password',
         );
         
         $frm_fields = new FrmField();
@@ -162,6 +169,10 @@ class FrmMeprProfileController{
         foreach ( $fields as $field ) {
             if ( isset($map[$field->field_key]) && isset($_POST['item_meta'][$field->id]) ) {
                 $_POST[$map[$field->field_key]] = $_POST['item_meta'][$field->id];
+                
+                if ( 'mepr-pass' == $field->field_key ) {
+                    $_POST['mepr_user_password_confirm'] = $_POST['item_meta']['conf_'. $field->id];
+                }
             } else if ( isset($_POST['item_meta'][$field->id]) ) {
                 // TODO: What do do with extra fields?
                 $_POST[$field->field_key] = $_POST['item_meta'][$field->id];
@@ -171,6 +182,8 @@ class FrmMeprProfileController{
         
         if ( is_user_logged_in() ) {
             $_POST['logged_in_purchase'] = 1;
+        } else {
+            $_POST['mepr_no_val'] = '';
         }
         
         $_POST['mepr_process_signup_form'] = 'Y';
