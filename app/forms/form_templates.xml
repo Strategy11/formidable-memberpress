@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- generator="WordPress/4.0-beta2-20140724" created="2014-07-25 21:26" -->
-
 <channel>
 	<form>
 		<id>601</id>
@@ -12,10 +10,10 @@
 		<is_template>0</is_template>
 		<default_template>0</default_template>
 		<editable>1</editable>
-		<options><![CDATA[{"notification":[{"reply_to_name":"","reply_to":"","cust_reply_to_name":"","cust_reply_to":"","email_to":"","email_subject":"","email_message":"[default-message]","update_email":"0","conditions":{"send_stop":"send","any_all":"any"},"twfrom":""}],"submit_value":"Save Profile","success_action":"message","success_msg":"Your account was updated.","show_form":"1","akismet":"","no_save":0,"ajax_load":0,"custom_style":"1","before_html":"[if form_name]<h3>[form_name]<\/h3>[\/if form_name]\r\n[if form_description]<div class=\\\"frm_description\\\">[form_description]<\/div>[\/if form_description]","after_html":"","submit_html":"<div class=\\\"frm_submit\\\">\r\n[if back_button]<input type=\\\"button\\\" value=\\\"[back_label]\\\" name=\\\"frm_prev_page\\\" formnovalidate=\\\"formnovalidate\\\" class=\\\"frm_prev_page\\\" [back_hook] \/>[\/if back_button]\r\n<input type=\\\"submit\\\" value=\\\"[button_label]\\\" [button_action] \/>\r\n<img class=\\\"frm_ajax_loading\\\" src=\\\"[frmurl]\/images\/ajax_loader.gif\\\" alt=\\\"Sending\\\" style=\\\"visibility:hidden;\\\" \/>\r\n[if save_draft]<a class=\\\"frm_save_draft\\\" [draft_hook]>[draft_label]<\/a>[\/if save_draft]\r\n<\/div>","edit_value":"Save Profile","edit_msg":"Your account was updated.","edit_action":"message","edit_url":"","edit_page_id":"","logged_in_role":"","save_draft":0,"draft_msg":"Your draft has been saved.","editable_role":"","open_editable_role":"-1","copy":0,"single_entry":"1","single_entry_type":"user","success_page_id":"","success_url":"","ajax_submit":0,"create_post":0,"cookie_expiration":"8000","post_type":"post","post_category":[],"post_content":"","post_excerpt":"","post_title":"","post_name":"","post_date":"","post_status":"","post_custom_fields":[],"post_password":"","registration":"1","login":0,"reg_avatar":"","reg_username":"","reg_email":"33068","reg_password":"33073","reg_last_name":"33067","reg_first_name":"33066","reg_display_name":"33069","reg_role":"subscriber","reg_email_subject":"[sitename] Your username and password","reg_usermeta":{"address":"33070","company":"33071"}}]]></options>
+		<options><![CDATA[{"submit_value":"Save Profile","success_action":"message","success_msg":"Your account was updated.","show_form":"1","no_save":"1","edit_value":"Save Profile","edit_msg":"Your account was updated.","edit_action":"message","logged_in_role":"","save_draft":0,"editable_role":"","open_editable_role":"-1","single_entry":"1","single_entry_type":"user"}]]></options>
 		<status><![CDATA[published]]></status>
 		<field>
-		    <id>33066</id>
+		    <id>955</id>
             <field_key><![CDATA[ylbqbn]]></field_key>
             <name><![CDATA[Name]]></name>
             <description><![CDATA[First]]></description>
@@ -25,10 +23,10 @@
             <form_id>601</form_id>
             <required>1</required>
             <options><![CDATA[]]></options>
-            <field_options><![CDATA[{"size":"","max":"","label":"","blank":"This field cannot be blank.","required_indicator":"*","invalid":"","separate_value":0,"clear_on_focus":0,"default_blank":0,"classes":"frm_first_half","custom_html":"<div id=\\\"frm_field_[id]_container\\\" class=\\\"frm_form_field form-field [required_class][error_class]\\\">\r\n    <label for=\\\"field_[key]\\\" class=\\\"frm_primary_label\\\">[field_name]\r\n        <span class=\\\"frm_required\\\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\\\"frm_description\\\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\\\"frm_error\\\">[error]<\/div>[\/if error]\r\n<\/div>","slide":0,"form_select":"","show_hide":"show","any_all":"any","align":"block","hide_field":[],"hide_field_cond":["=="],"hide_opt":[],"star":0,"ftypes":[],"data_type":"select","restrict":0,"start_year":2000,"end_year":2020,"read_only":0,"admin_only":"","locale":"","attach":false,"minnum":0,"maxnum":9999,"step":1,"clock":12,"start_time":"00:00","end_time":"23:59","unique":0,"use_calc":0,"calc":"","duplication":1,"rte":"mce","dyn_default_value":"","multiple":0,"unique_msg":"","autocom":0,"format":"","btsp":{"prepend":"","append":""},"custom_field":"","post_field":"","taxonomy":"category","exclude_cat":0}]]></field_options>
+            <field_options><![CDATA[{"classes":"frm_first_half"}]]></field_options>
 		</field>
 		<field>
-		    <id>33067</id>
+		    <id>956</id>
             <field_key><![CDATA[4jtngv]]></field_key>
             <name><![CDATA[Last]]></name>
             <description><![CDATA[Last]]></description>
@@ -38,10 +36,10 @@
             <form_id>601</form_id>
             <required>1</required>
             <options><![CDATA[]]></options>
-            <field_options><![CDATA[{"size":"","max":"","label":"hidden","blank":"This field cannot be blank.","required_indicator":"*","invalid":"","separate_value":0,"clear_on_focus":0,"default_blank":0,"classes":"frm_last_half","custom_html":"<div id=\\\"frm_field_[id]_container\\\" class=\\\"frm_form_field form-field [required_class][error_class]\\\">\r\n    <label for=\\\"field_[key]\\\" class=\\\"frm_primary_label\\\">[field_name]\r\n        <span class=\\\"frm_required\\\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\\\"frm_description\\\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\\\"frm_error\\\">[error]<\/div>[\/if error]\r\n<\/div>","slide":0,"form_select":"","show_hide":"show","any_all":"any","align":"block","hide_field":[],"hide_field_cond":["=="],"hide_opt":[],"star":0,"ftypes":[],"data_type":"select","restrict":0,"start_year":2000,"end_year":2020,"read_only":0,"admin_only":"","locale":"","attach":false,"minnum":0,"maxnum":9999,"step":1,"clock":12,"start_time":"00:00","end_time":"23:59","unique":0,"use_calc":0,"calc":"","duplication":1,"rte":"mce","dyn_default_value":"","multiple":0,"unique_msg":"","autocom":0,"format":"","btsp":{"prepend":"","append":""},"custom_field":"","post_field":"","taxonomy":"category","exclude_cat":0}]]></field_options>
+            <field_options><![CDATA[{"label":"hidden","classes":"frm_last_half"}]]></field_options>
 		</field>
 		<field>
-		    <id>33069</id>
+		    <id>957</id>
             <field_key><![CDATA[3z9zsl]]></field_key>
             <name><![CDATA[Display Name]]></name>
             <description><![CDATA[]]></description>
@@ -51,10 +49,10 @@
             <form_id>601</form_id>
             <required>1</required>
             <options><![CDATA[]]></options>
-            <field_options><![CDATA[{"size":"","max":"","label":"","blank":"This field cannot be blank.","required_indicator":"*","invalid":"","separate_value":0,"clear_on_focus":0,"default_blank":0,"classes":"","custom_html":"<div id=\\\"frm_field_[id]_container\\\" class=\\\"frm_form_field form-field [required_class][error_class]\\\">\r\n    <label for=\\\"field_[key]\\\" class=\\\"frm_primary_label\\\">[field_name]\r\n        <span class=\\\"frm_required\\\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\\\"frm_description\\\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\\\"frm_error\\\">[error]<\/div>[\/if error]\r\n<\/div>","slide":0,"form_select":"","show_hide":"show","any_all":"any","align":"block","hide_field":[],"hide_field_cond":["=="],"hide_opt":[],"star":0,"ftypes":[],"data_type":"select","restrict":0,"start_year":2000,"end_year":2020,"read_only":0,"admin_only":"","locale":"","attach":false,"minnum":0,"maxnum":9999,"step":1,"clock":12,"start_time":"00:00","end_time":"23:59","unique":0,"use_calc":0,"calc":"","duplication":1,"rte":"mce","dyn_default_value":"","multiple":0,"unique_msg":"","autocom":0,"format":"","btsp":{"prepend":"","append":""},"custom_field":"","post_field":"","taxonomy":"category","exclude_cat":0}]]></field_options>
+            <field_options><![CDATA[]]></field_options>
 		</field>
 		<field>
-		    <id>33068</id>
+		    <id>958</id>
             <field_key><![CDATA[2uqopv]]></field_key>
             <name><![CDATA[Email Address]]></name>
             <description><![CDATA[]]></description>
@@ -64,36 +62,10 @@
             <form_id>601</form_id>
             <required>1</required>
             <options><![CDATA[]]></options>
-            <field_options><![CDATA[{"size":"","max":"","label":"","blank":"This field cannot be blank.","required_indicator":"*","invalid":"Email Address is invalid","separate_value":0,"clear_on_focus":0,"default_blank":0,"classes":"","custom_html":"<div id=\\\"frm_field_[id]_container\\\" class=\\\"frm_form_field form-field [required_class][error_class]\\\">\r\n    <label for=\\\"field_[key]\\\" class=\\\"frm_primary_label\\\">[field_name]\r\n        <span class=\\\"frm_required\\\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\\\"frm_description\\\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\\\"frm_error\\\">[error]<\/div>[\/if error]\r\n<\/div>","slide":0,"form_select":"","show_hide":"show","any_all":"any","align":"block","hide_field":[],"hide_field_cond":["=="],"hide_opt":[],"star":0,"ftypes":[],"data_type":"select","restrict":0,"start_year":2000,"end_year":2020,"read_only":0,"admin_only":"","locale":"","attach":false,"minnum":0,"maxnum":9999,"step":1,"clock":12,"start_time":"00:00","end_time":"23:59","unique":0,"use_calc":0,"calc":"","duplication":1,"rte":"mce","dyn_default_value":"","multiple":0,"unique_msg":"","autocom":0,"format":"","btsp":{"prepend":"","append":""},"custom_field":"","post_field":"","taxonomy":"category","exclude_cat":0}]]></field_options>
+            <field_options><![CDATA[]]></field_options>
 		</field>
 		<field>
-		    <id>33071</id>
-            <field_key><![CDATA[v5wfv4]]></field_key>
-            <name><![CDATA[Company Name]]></name>
-            <description><![CDATA[]]></description>
-            <type><![CDATA[text]]></type>
-            <default_value><![CDATA[[user_meta key=company]]]></default_value>
-            <field_order>4</field_order>
-            <form_id>601</form_id>
-            <required></required>
-            <options><![CDATA[]]></options>
-            <field_options><![CDATA[{"size":"","max":"","label":"","blank":"This field cannot be blank.","required_indicator":"*","invalid":"","separate_value":0,"clear_on_focus":0,"default_blank":0,"classes":"","custom_html":"<div id=\\\"frm_field_[id]_container\\\" class=\\\"frm_form_field form-field [required_class][error_class]\\\">\r\n    <label for=\\\"field_[key]\\\" class=\\\"frm_primary_label\\\">[field_name]\r\n        <span class=\\\"frm_required\\\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\\\"frm_description\\\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\\\"frm_error\\\">[error]<\/div>[\/if error]\r\n<\/div>","slide":0,"form_select":"","show_hide":"show","any_all":"any","align":"block","hide_field":[],"hide_field_cond":["=="],"hide_opt":[],"star":0,"ftypes":[],"data_type":"select","restrict":0,"start_year":2000,"end_year":2020,"read_only":0,"admin_only":"","locale":"","attach":false,"minnum":0,"maxnum":9999,"step":1,"clock":12,"start_time":"00:00","end_time":"23:59","unique":0,"use_calc":0,"calc":"","duplication":1,"rte":"mce","dyn_default_value":"","multiple":0,"unique_msg":"","autocom":0,"format":"","btsp":{"prepend":"","append":""},"custom_field":"","post_field":"","taxonomy":"category","exclude_cat":0}]]></field_options>
-		</field>
-		<field>
-		    <id>33070</id>
-            <field_key><![CDATA[tu9h75]]></field_key>
-            <name><![CDATA[Company Address]]></name>
-            <description><![CDATA[Add your address here for use in your invoice.]]></description>
-            <type><![CDATA[textarea]]></type>
-            <default_value><![CDATA[[user_meta key=address]]]></default_value>
-            <field_order>5</field_order>
-            <form_id>601</form_id>
-            <required></required>
-            <options><![CDATA[]]></options>
-            <field_options><![CDATA[{"size":"","max":"5","label":"","blank":"This field cannot be blank.","required_indicator":"*","invalid":"","separate_value":0,"clear_on_focus":0,"default_blank":0,"classes":"","custom_html":"<div id=\\\"frm_field_[id]_container\\\" class=\\\"frm_form_field form-field [required_class][error_class]\\\">\r\n    <label for=\\\"field_[key]\\\" class=\\\"frm_primary_label\\\">[field_name]\r\n        <span class=\\\"frm_required\\\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\\\"frm_description\\\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\\\"frm_error\\\">[error]<\/div>[\/if error]\r\n<\/div>","slide":0,"form_select":"","show_hide":"show","any_all":"any","align":"block","hide_field":[],"hide_field_cond":["=="],"hide_opt":[],"star":0,"ftypes":[],"data_type":"select","restrict":0,"start_year":2000,"end_year":2020,"read_only":0,"admin_only":"","locale":"","attach":false,"minnum":0,"maxnum":9999,"step":1,"clock":12,"start_time":"00:00","end_time":"23:59","unique":0,"use_calc":0,"calc":"","duplication":1,"rte":"mce","dyn_default_value":"","multiple":0,"unique_msg":"","autocom":0,"format":"","btsp":"","custom_field":"","post_field":"","taxonomy":"category","exclude_cat":0}]]></field_options>
-		</field>
-		<field>
-		    <id>33073</id>
+		    <id>961</id>
             <field_key><![CDATA[twfzun]]></field_key>
             <name><![CDATA[Password]]></name>
             <description><![CDATA[Leave blank to keep your current password]]></description>
@@ -103,10 +75,10 @@
             <form_id>601</form_id>
             <required></required>
             <options><![CDATA[]]></options>
-            <field_options><![CDATA[{"size":"","max":"","label":"","blank":"","required_indicator":"*","invalid":"","separate_value":0,"clear_on_focus":0,"default_blank":0,"classes":"","custom_html":"<div id=\\\"frm_field_[id]_container\\\" class=\\\"frm_form_field form-field [required_class][error_class]\\\">\r\n    <label for=\\\"field_[key]\\\" class=\\\"frm_primary_label\\\">[field_name]\r\n        <span class=\\\"frm_required\\\">[required_label]<\/span>\r\n    <\/label>\r\n    [input]\r\n    [if description]<div class=\\\"frm_description\\\">[description]<\/div>[\/if description]\r\n    [if error]<div class=\\\"frm_error\\\">[error]<\/div>[\/if error]\r\n<\/div>","slide":0,"form_select":"","show_hide":"show","any_all":"any","align":"block","hide_field":[],"hide_field_cond":["=="],"hide_opt":[],"star":0,"ftypes":[],"data_type":"select","restrict":0,"start_year":2000,"end_year":2020,"read_only":0,"admin_only":"","locale":"","attach":false,"minnum":0,"maxnum":9999,"step":1,"clock":12,"start_time":"00:00","end_time":"23:59","unique":0,"use_calc":0,"calc":"","duplication":1,"rte":"mce","dyn_default_value":"","multiple":0,"unique_msg":"This value must be unique.","autocom":0,"format":"","btsp":{"prepend":"","append":""},"custom_field":"","post_field":"","taxonomy":"category","exclude_cat":0}]]></field_options>
+            <field_options><![CDATA[{"conf_field":"inline"}]]></field_options>
 		</field>
 		<field>
-		    <id>33072</id>
+		    <id>962</id>
             <field_key><![CDATA[fo6k79]]></field_key>
             <name><![CDATA[User ID]]></name>
             <description><![CDATA[]]></description>
@@ -116,7 +88,147 @@
             <form_id>601</form_id>
             <required></required>
             <options><![CDATA[]]></options>
-            <field_options><![CDATA[{"size":"","max":"","label":"","blank":"","required_indicator":"*","invalid":"","separate_value":0,"clear_on_focus":0,"default_blank":0,"classes":"","custom_html":"","custom_field":"","post_field":"","taxonomy":"category","exclude_cat":0,"slide":0,"form_select":"","show_hide":"show","any_all":"any","align":"block","hide_field":[],"hide_field_cond":["=="],"hide_opt":[],"star":0,"ftypes":[],"data_type":"select","restrict":0,"start_year":2000,"end_year":2020,"read_only":0,"admin_only":"","locale":"","attach":false,"minnum":0,"maxnum":9999,"step":1,"clock":12,"start_time":"00:00","end_time":"23:59","unique":0,"use_calc":0,"calc":"","duplication":1,"rte":"mce","dyn_default_value":"","multiple":0,"unique_msg":"","autocom":0,"format":"","btsp":""}]]></field_options>
+            <field_options><![CDATA[]]></field_options>
 		</field>
 	</form>
+	
+	<form>
+		<id>103</id>
+		<form_key><![CDATA[mepr-signup]]></form_key>
+		<name><![CDATA[MemberPress signup]]></name>
+		<description><![CDATA[]]></description>
+		<created_at>2014-09-05 19:04:35</created_at>
+		<logged_in>0</logged_in>
+		<is_template>0</is_template>
+		<default_template>0</default_template>
+		<editable>0</editable>
+		<options><![CDATA[{"submit_value":"Proceed to Step 2: Payment","success_action":"message","no_save":"1"}]]></options>
+		<status><![CDATA[published]]></status>
+		<field>
+		    <id>1010</id>
+            <field_key><![CDATA[mepr-product]]></field_key>
+            <name><![CDATA[Product]]></name>
+            <description><![CDATA[]]></description>
+            <type><![CDATA[hidden]]></type>
+            <default_value><![CDATA[]]></default_value>
+            <field_order>0</field_order>
+            <form_id>103</form_id>
+            <required></required>
+            <options><![CDATA[]]></options>
+            <field_options><![CDATA[{"required_indicator":"*"}]]></field_options>
+		</field>
+		<field>
+		    <id>1007</id>
+            <field_key><![CDATA[mepr-fname]]></field_key>
+            <name><![CDATA[Name]]></name>
+            <description><![CDATA[First]]></description>
+            <type><![CDATA[text]]></type>
+            <default_value><![CDATA[[first_name]]]></default_value>
+            <field_order>1</field_order>
+            <form_id>103</form_id>
+            <required>1</required>
+            <options><![CDATA[]]></options>
+            <field_options><![CDATA[{"required_indicator":"*","classes":"frm_first_half"}]]></field_options>
+		</field>
+		<field>
+		    <id>1008</id>
+            <field_key><![CDATA[mepr-lname]]></field_key>
+            <name><![CDATA[Last]]></name>
+            <description><![CDATA[Last]]></description>
+            <type><![CDATA[text]]></type>
+            <default_value><![CDATA[[last_name]]]></default_value>
+            <field_order>2</field_order>
+            <form_id>103</form_id>
+            <required>1</required>
+            <options><![CDATA[]]></options>
+            <field_options><![CDATA[{"required_indicator":"*","classes":"frm_last_half"}]]></field_options>
+		</field>
+		<field>
+		    <id>1005</id>
+            <field_key><![CDATA[mepr-login]]></field_key>
+            <name><![CDATA[Username]]></name>
+            <description><![CDATA[]]></description>
+            <type><![CDATA[text]]></type>
+            <default_value><![CDATA[[login]]]></default_value>
+            <field_order>3</field_order>
+            <form_id>103</form_id>
+            <required>1</required>
+            <options><![CDATA[]]></options>
+            <field_options><![CDATA[{"required_indicator":"*","admin_only":"loggedout"}]]></field_options>
+		</field>
+		<field>
+		    <id>1006</id>
+            <field_key><![CDATA[mepr-email]]></field_key>
+            <name><![CDATA[Email]]></name>
+            <description><![CDATA[]]></description>
+            <type><![CDATA[email]]></type>
+            <default_value><![CDATA[[email]]]></default_value>
+            <field_order>4</field_order>
+            <form_id>103</form_id>
+            <required>1</required>
+            <options><![CDATA[]]></options>
+            <field_options><![CDATA[{"required_indicator":"*","admin_only":"loggedout"}]]></field_options>
+		</field>
+		<field>
+		    <id>1009</id>
+            <field_key><![CDATA[mepr-pass]]></field_key>
+            <name><![CDATA[Password]]></name>
+            <description><![CDATA[Enter Password]]></description>
+            <type><![CDATA[password]]></type>
+            <default_value><![CDATA[]]></default_value>
+            <field_order>5</field_order>
+            <form_id>103</form_id>
+            <required></required>
+            <options><![CDATA[]]></options>
+            <field_options><![CDATA[{"required_indicator":"*","admin_only":"loggedout","conf_field":"inline"}]]></field_options>
+		</field>
+		<field>
+		    <id>1012</id>
+            <field_key><![CDATA[mepr-coupon]]></field_key>
+            <name><![CDATA[Coupon Code]]></name>
+            <description><![CDATA[]]></description>
+            <type><![CDATA[text]]></type>
+            <default_value><![CDATA[]]></default_value>
+            <field_order>6</field_order>
+            <form_id>103</form_id>
+            <required></required>
+            <options><![CDATA[]]></options>
+            <field_options><![CDATA[{"required_indicator":"*"}]]></field_options>
+		</field>
+		<field>
+		    <id>1011</id>
+            <field_key><![CDATA[mepr-pay]]></field_key>
+            <name><![CDATA[Payment Method]]></name>
+            <description><![CDATA[]]></description>
+            <type><![CDATA[select]]></type>
+            <default_value><![CDATA[]]></default_value>
+            <field_order>7</field_order>
+            <form_id>103</form_id>
+            <required>1</required>
+            <options><![CDATA[[]]]></options>
+            <field_options><![CDATA[{"required_indicator":"*"}]]></field_options>
+		</field>
+	</form>
+	
+	
+	<view>
+		<title>User Profile</title>
+		<link></link>
+		<post_author><![CDATA[admin]]></post_author>
+		<description></description>
+		<content><![CDATA[{"reg_email":"958","reg_username":"","reg_password":"961","reg_first_name":"955","reg_last_name":"956","reg_display_name":"957","event":["create","update"]}]]></content>
+		<excerpt><![CDATA[register]]></excerpt>
+		<post_id>1602</post_id>
+		<post_date>2014-09-05 17:47:11</post_date>
+		<post_date_gmt>2014-09-05 17:47:11</post_date_gmt>
+		<comment_status>closed</comment_status>
+		<ping_status>open</ping_status>
+		<post_name>601_register</post_name>
+		<status>publish</status>
+		<post_parent>0</post_parent>
+		<menu_order>601</menu_order>
+		<post_type>frm_form_actions</post_type>
+		<post_password></post_password>
+		<is_sticky>0</is_sticky>
+	</view>
 </channel>
