@@ -15,7 +15,9 @@ class FrmMeprProfileController{
         }
         
         // TODO: hide the MemberPress form more gracefully
-        echo '<style type="text/css">#mepr-account-table, #mepr-member-account-wrapper p small{display:none;}</style>';
+        echo '<style type="text/css">#mepr_account_form, .mepr_spacer, .mp_wrapper > a, #mepr-account-table, #mepr-member-account-wrapper p small{display:none;}
+.mp_wrapper textarea, .mp_wrapper select, .mp_wrapper input[type="text"], .mp_wrapper input[type="url"], .mp_wrapper input[type="email"], .mp_wrapper input[type="tel"], .mp_wrapper input[type="number"], .mp_wrapper input[type="password"] {max-width: 100% !important; padding: 6px 10px !important; width: 100% !important;}
+</style>';
         
         echo FrmFormsController::get_form_shortcode(array('id' => 'memberpress-account'));
     }
